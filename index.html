@@ -255,15 +255,11 @@
 <!-- EmailJS -->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
-  // ─── CONFIGURAÇÃO EMAILJS ───────────────────────────────────────────────────
-  // PASSO 1: Crie uma conta gratuita em https://www.emailjs.com
-  // PASSO 2: Crie um serviço de email (Gmail, Outlook, etc.) e copie o Service ID
-  // PASSO 3: Crie um template com as variáveis: {{tipo}}, {{nome}}, {{setor}}, {{assediador}}, {{relato}}, {{data_hora}}
-  // PASSO 4: Substitua os valores abaixo com seus IDs reais
-  const EMAILJS_PUBLIC_KEY  = "SEU_PUBLIC_KEY";   // Ex: "user_abc123xyz"
-  const EMAILJS_SERVICE_ID  = "SEU_SERVICE_ID";   // Ex: "service_gmail"
-  const EMAILJS_TEMPLATE_ID = "SEU_TEMPLATE_ID";  // Ex: "template_denuncia"
-  // ───────────────────────────────────────────────────────────────────────────
+
+  const EMAILJS_PUBLIC_KEY  = "SEU_PUBLIC_KEY";  
+  const EMAILJS_SERVICE_ID  = "SEU_SERVICE_ID";   
+  const EMAILJS_TEMPLATE_ID = "SEU_TEMPLATE_ID";  
+  
 
   emailjs.init(EMAILJS_PUBLIC_KEY);
 
