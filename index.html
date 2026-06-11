@@ -145,7 +145,7 @@
     </div>
     <div class="aviso-conf-texto">
       <strong>Sua identidade está protegida</strong>
-      O nome é completamente opcional. Esta denúncia será tratada com sigilo total pelo setor de Recursos Humanos.
+      O nome é completamente opcional. Esta denúncia será tratada com sigilo total pelos responsáveis pela apuração.
     </div>
   </div>
 
@@ -234,7 +234,7 @@
         <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
       </div>
       <h2>Denúncia enviada com sucesso</h2>
-      <p>Seu relato foi encaminhado ao setor de<br><strong>Recursos Humanos</strong> por e-mail.<br><br>A ocorrência será analisada com<br>sigilo e responsabilidade.</p>
+      <p>Seu relato foi encaminhado aos<br><strong>responsáveis pela apuração</strong> por e-mail.<br><br>A ocorrência será analisada com<br>sigilo e responsabilidade.</p>
       <button class="btn btn-outline" onclick="novaDenuncia()">
         <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
         Nova denúncia
@@ -246,7 +246,7 @@
   <div class="rodape-info" id="rodape">
     <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
     <div class="rodape-info-texto">
-      Ao enviar, esta denúncia será entregue <strong>automaticamente por e-mail</strong> ao setor de Recursos Humanos para apuração imediata. Sua identidade será mantida em sigilo conforme a política interna da empresa.
+      Ao enviar, esta denúncia será entregue <strong>automaticamente por e-mail</strong> aos responsáveis pela apuração. Sua identidade será mantida em sigilo conforme a política interna da empresa.
     </div>
   </div>
 
@@ -339,7 +339,7 @@
       document.getElementById('rodape').style.display = 'none';
     } catch(err) {
       console.error('EmailJS error:', err);
-      alert('Erro ao enviar a denúncia. Tente novamente ou entre em contato com o RH diretamente.');
+      alert('Erro ao enviar a denúncia. Tente novamente em instantes.');
       btn.disabled = false;
       btn.innerHTML = '<svg viewBox="0 0 24 24" style="width:14px;height:14px;stroke:white;fill:none;stroke-width:2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Enviar denúncia';
     }
