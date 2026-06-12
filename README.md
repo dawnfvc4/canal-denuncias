@@ -18,8 +18,7 @@
 ## 🖥️ Preview
 
 ```
-<img width="654" height="637" alt="Captura de tela 2026-06-12 092504" src="https://github.com/user-attachments/assets/5ac1e704-8d80-427c-b29f-89ba81ec4c14" />
-
+![Preview](assets/preview.png)
 ```
 
 ---
